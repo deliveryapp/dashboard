@@ -1,0 +1,75 @@
+.b-button {
+  /*display: inline-block;*/
+  height: 34px;
+
+  border: solid 1px #005e8c;
+  border-radius: 2px;
+  font-family: MuseoSans-500 !important;
+  font-size: 13px !important;
+  font-weight: 100;
+  color: #fff;
+  background-color: #0074ad;
+  &:hover {
+    background-color: lighten(#0074ad, 5%);
+  }
+  &:active {
+    background-color: darken(#0074ad, 5%);
+  }
+  &:focus {
+    outline:none;
+  }
+}
+.b-button_general{
+  padding: 2px 15px 0 10px;
+}
+
+.b-button_arrow {
+  padding: 2px 15px 0 5px;
+}
+
+.b-button_green {
+  height: 34px;
+  padding: 0 50px 0 50px;
+  background-color: #8cc248;
+  border: solid 1px #7db23a;
+  &:hover{
+    background-color: lighten(#8cc248, 5%);
+  }
+  &:active {
+    background-color: darken(#7db23a, 5%);
+  }
+  &:focus {
+    outline:none;
+  }
+}
+
+.b-button_apply {
+  font-size: 15px;
+  height: 44px;
+}
+
+.b-button_gray {
+  background-color: #f2f2f2;
+  border: solid 1px #cacaca;
+  color: #626262;
+  &:hover{
+    background-color: lighten(#f2f2f2, 5%);
+  }
+  &:active {
+    background-color: darken(#f2f2f2, 5%);
+  }
+  &:focus {
+    outline:none;
+  }
+}
+
+.b-button_cancel {
+  height: 34px;
+  padding: 0 50px 0 50px;
+}
+
+.b-button__content {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 25px;
+}
