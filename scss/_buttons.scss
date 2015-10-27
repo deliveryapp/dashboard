@@ -8,6 +8,15 @@
   font-size: 13px;
   color: #fff;
   background-color: #0074ad;
+  &:hover {
+    background-color: lighten(#0074ad, 5%);
+  }
+  &:active {
+    background-color: darken(#0074ad, 5%);
+  }
+  &:focus {
+    outline:none;
+  }
 }
 
 .b-button_green {
@@ -15,19 +24,35 @@
   padding: 0 50px 0 50px;
   background-color: #8cc248;
   border: solid 1px #7db23a;
+  &:hover{
+    background-color: lighten(#8cc248, 5%);
+  }
+  &:active {
+    background-color: darken(#7db23a, 5%);
+  }
+  &:focus {
+    outline:none;
+  }
 }
 
 .b-button_apply {
-
   font-size: 15px;
   height: 44px;
-  /*width: 244px;*/
 }
 
 .b-button_gray {
   background-color: #f2f2f2;
   border: solid 1px #cacaca;
   color: #626262;
+  &:hover{
+    background-color: lighten(#f2f2f2, 5%);
+  }
+  &:active {
+    background-color: darken(#f2f2f2, 5%);
+  }
+  &:focus {
+    outline:none;
+  }
 }
 
 .b-button_cancel {
@@ -35,32 +60,8 @@
   padding: 0 50px 0 50px;
 }
 
-.sprite-img {
-  display: inline-block;
-  vertical-align: middle;
-}
-
 .b-button__content {
   display: inline-block;
   vertical-align: middle;
-}
-
-
-
-.apply-button {
-  @extend .b-button;
-  background-color: #8cc248;
-  border: solid 1px #7db23a;
-  height: 44px;
-  width: 244px;
-}
-.blue-button {
-
-}
-.greenButton {
-
-}
-.gray-button {
-  @extend .b-button;
-
+  line-height: 25px;
 }

@@ -9,7 +9,7 @@
   content: '';
   background-image: url(../images/spritesheet.png);
   background-repeat: no-repeat;
-  background-position: -5px -5px;
+  background-position: -5px -10px;
 }
 
 .b-button__content_icon-edit:before {
@@ -23,28 +23,28 @@
   content: '';
   background-image: url(../images/spritesheet.png);
   background-repeat: no-repeat;
-  background-position: -75px -5px;
+  background-position: -75px -10px;
 }
 
 .b-button__content_icon-paper:before {
   content: '';
   background-image: url(../images/spritesheet.png);
   background-repeat: no-repeat;
-  background-position: -5px -40px;
+  background-position: -5px -44px;
 }
 
 .b-button__content_icon-pay:before {
   content: '';
   background-image: url(../images/spritesheet.png);
   background-repeat: no-repeat;
-  background-position: -40px -40px;
+  background-position: -40px -45px;
 }
 
 .b-button__content_icon-plus:before {
   content: '';
   background-image: url(../images/spritesheet.png);
   background-repeat: no-repeat;
-  background-position: -75px -40px;
+  background-position: -75px -45px;
 }
 
 .b-button__content_icon-sign_out:before {
@@ -65,7 +65,7 @@
   content: '';
   background-image: url(../images/spritesheet.png);
   background-repeat: no-repeat;
-  background-position: -75px -75px;
+  background-position: -75px -81px;
 }
 
 .b-button__content_icon-user_info:before {
@@ -86,5 +86,5 @@
   content: '';
   background-image: url(../images/spritesheet.png);
   background-repeat: no-repeat;
-  background-position: -117px -79px;
+  background-position: -40px -81px;
 }
