@@ -7,46 +7,51 @@ body{
   background-color: rgb(3,21,57);
   height: 90px;
 
-
-  .b-logo__text{
-    font-family: MuseoSans-300, sans-serif;
-    font-size: 28pt;
-    color:white;
-    line-height: 90px;
-    display: inline-block;
-  }
-  .b-logo__logo{
-    line-height: 90px;
-    display: inline-block;
-    margin-left: 150px;
-  }
 }
 
+.b-logo__text{
+  font-family: MuseoSans-300, sans-serif;
+  font-size: 28px;
+  color:white;
+  vertical-align: middle;
+  line-height: 90px;
+  display: inline-block;
+  margin-left: 20px;
+}
 
+.b-logo__logo{
+  display: inline-block;
+  margin-left: 150px;
+}
 
 .b-nav-bar{
   background-color: rgb(70,70,70);
   height: 45px;
+}
 
-  .b-primary-menu{
-    font-family: MuseoSans-700, sans-serif;
-    font-size: 13pt;
-    margin-left: 150px;
+.b-primary-menu{
+  font-family: MuseoSans-700, sans-serif;
+  font-size: 13px;
+  margin-left: 150px;
+}
 
-    .b-primary-menu__item{
-      color:white;
-      line-height: 45px;
-    }
+.b-primary-menu__item{
+  color:white;
+  line-height: 45px !important;
+  text-decoration: none;
+  margin-right: 20px;
+  &:hover {
+    color:white;
+    text-decoration: none;
   }
-
-
-
-
+  &:active {
+    color:white;
+    text-decoration: none;
+  }
+  &:focus {
+    color:white;
+    text-decoration: none;
+  }
 }
 
 
-.b-primary-menu__item_sign-out:before {
-  width: 30px;
-  height: 30px;
-  background-position: -86px -75px;
-}
