@@ -7,9 +7,12 @@
   background-color: #ffffff;
   border: 1px solid #dcdcdc;
   color: #000000;
-  padding: 10px 20px 30px 20px;
+  //padding: 10px 20px 30px 20px;
+
+  //padding: 14px 18px 33px 20px;
+  padding: 15px 18px 28px 20px;
   margin-bottom: 30px;
-  width: 925px;
+  width: 920px;
   font-size: 13px;
   font-family: MuseoSans-300, sans-serif;
 }
@@ -21,10 +24,10 @@
   font-family: MuseoSans-700, sans-serif;
 }
 .b-gen-container__header-heading-text {
-  margin: 0;
+  margin: 9px 0 0 0;
   padding: 0;
-  font-size: 15px !important;
-  font-family: MuseoSans-700, sans-serif !important;
+  font-size: 15px ;
+  font-family: MuseoSans-700, sans-serif ;
 }
 .b-gen-container__button-container {
   text-align: right;
@@ -34,8 +37,8 @@
   background-color: #f2f2f2;
   border: 1px solid #dcdcdc;
   color: #626262;
-  margin-top: 20px;
-  padding: 20px;
+  margin-top: 13px;
+  padding: 27px 17px 20px 20px ;
 
 }
 .b-gen-container__container-pane_link_color {
@@ -46,7 +49,7 @@
   padding-left: 23px;
   list-style: none;
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: 13px;
   color: #697a83;
 }
 .b-gen-container__container-pane_row-distance:before {
@@ -56,6 +59,7 @@
   top: 0;
   font-size: 13px;
   color: #697a83;
+  line-height: 17px;
 }
 .b-gen-container__container-pane_row-distance {
 }
