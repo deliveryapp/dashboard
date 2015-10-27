@@ -5,22 +5,40 @@
     <title></title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
+<body class="b-dashboard">
 
-<header id="header">
-    <img src="images/logo.png" alt=""/>
-    <span>My Dashboard</span>
-</header>
-<nav id="navigation">
-    <a href="#"><i class="sprite sprite-header1"></i></a>
-    <span>John Doe</span>
-    <a href="#"><i class="sprite sprite-header2"></i></a>
-    <span>Sign out</span>
-</nav>
+<div class="b-dashboard__header">
+    <header class="b-header">
+        <div class="b-header__logo">
+            <div class="b-logo">
+                <div class="b-logo__logo">
+                    <img src="images/logo.png" alt=""/>
+                </div>
+                <div class="b-logo__text">
+                    <span>My Dashboard</span>
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
 
-<div id="content">
+<div class="b-dashboard__nav-bar">
 
+    <div class="b-nav-bar">
+        <div class="b-nav__primary-menu">
+            <nav class="b-primary-menu">
+                <a class="b-primary-menu__item b-primary-menu__item_person-name">
+                    John Doe
+                </a>
+                <a class="b-primary-menu__item b-primary-menu__item_sign-out">
+                    Sign Out
+                </a>
+            </nav>
+        </div>
+    </div>
+</div>
 
+<div class="b-content">
 
 </div>
 

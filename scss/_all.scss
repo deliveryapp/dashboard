@@ -3,13 +3,27 @@ body {
   font-size: 13pt;
   color: #626262;
 }
+
 .grey-wrapper {
-  //padding: 1%;
   background-color: #f2f2f2;
   color: #626262;
-  margin: 30px;
+  margin-top: 20px;
 }
+
+.grey-wrapper li {
+  color: #697a83;
+}
+
+.grey-wrapper li p {
+  margin: 0 0 0 0;
+  color: #697a83;
+}
+
+
+
 .container .grey-wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
   border: 1px solid #dcdcdc;
 }
 
