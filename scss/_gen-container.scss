@@ -35,21 +35,29 @@
   border: 1px solid #dcdcdc;
   color: #626262;
   margin-top: 20px;
-  padding: 15px;
+  padding: 20px;
 
 }
 .b-gen-container__container-pane_link_color {
   color: #697a83;
 }
 
-.b-gen-container__container-pane_marker-distance {
+.b-gen-container__container-pane_row-distance {
+  padding-left: 23px;
+  list-style: none;
+  position: relative;
+  margin-bottom: 10px;
   color: #697a83;
-  margin: 0 0 0 -7px;
-  cursor: pointer;
+}
+.b-gen-container__container-pane_row-distance:before {
+  content: "\2022";
+  position: absolute;
+  left: 14px;
+  top: 0;
+  font-size: 13px;
+  color: #697a83;
 }
 .b-gen-container__container-pane_row-distance {
-  margin-left: -7px ;
-  margin-bottom: 15px;
 }
 
 
