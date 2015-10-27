@@ -7,17 +7,43 @@ body{
   margin:0 auto;
 }
 
+
 #header{
-  background-color: #8cc248;
+  background-color: rgb(3,21,57);
   height: 90px;
 }
+.header_text{
+  font-family: MuseoSans-300, sans-serif;
+  font-size: 28pt;
+  color:white;
+  line-height: 90px;
+
+}
+
 #navigation{
   background-color: rgb(70,70,70);
   height: 45px;
-
 }
 
 #content {
-
   background-color: red;
+}
+
+.logo{
+  display:table-cell;
+  vertical-align: middle;
+}
+
+.we{
+  display: inline-block;
+}
+
+.navigation{
+  display: inline-block;
+}
+
+#navigation{
+  font-family: MuseoSans-700, sans-serif;
+  font-size: 13pt;
+  color:white;
 }
