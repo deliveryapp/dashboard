@@ -1,20 +1,54 @@
-.button {
-  font-family: MuseoSans-700;
-  font-size: 13px;
-  color: #ffffff;
-  background-color: #0074ad;
+.b-button {
+  /*display: inline-block;*/
+  height: 32px;
+  padding: 2px 15px 0 10px;
   border: solid 1px #005e8c;
   border-radius: 2px;
-  height: 32px;
-  padding-top: 2px;
-  padding-left: 10px;
-  padding-right: 15px;
-  span {
-    padding-left: 8px;
-  }
+  font-family: MuseoSans-700;
+  font-size: 13px;
+  color: #fff;
+  background-color: #0074ad;
 }
+
+.b-button_green {
+  height: 34px;
+  padding: 0 50px 0 50px;
+  background-color: #8cc248;
+  border: solid 1px #7db23a;
+}
+
+.b-button_apply {
+
+  font-size: 15px;
+  height: 44px;
+  /*width: 244px;*/
+}
+
+.b-button_gray {
+  background-color: #f2f2f2;
+  border: solid 1px #cacaca;
+  color: #626262;
+}
+
+.b-button_cancel {
+  height: 34px;
+  padding: 0 50px 0 50px;
+}
+
+.sprite-img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.b-button__content {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+
 .apply-button {
-  @extend .button;
+  @extend .b-button;
   background-color: #8cc248;
   border: solid 1px #7db23a;
   height: 44px;
@@ -27,6 +61,6 @@
 
 }
 .gray-button {
-  @extend .button;
+  @extend .b-button;
 
 }
