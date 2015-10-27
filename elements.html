@@ -19,35 +19,34 @@
 </div>
 <br>
 <button type="button" class="b-button">
-    <span class="b-button__content b-button__content_icon b-button__content_icon-paper">Add New Member</span>
+    <span class="b-button__content b-button__content_icon b-button__content_icon-paper b-button_general">Add New Member</span>
 </button> <br><br>
 <button type="button" class="b-button">
-    <span class="b-button__content b-button__content_icon b-button__content_icon-mail">Navigate to Message Center</span>
+    <span class="b-button__content b-button__content_icon b-button__content_icon-mail b-button_general">Navigate to Message Center</span>
 </button> <br><br>
 <button type="button" class="b-button">
-    <span class="b-button__content b-button__content_icon b-button__content_icon-mail">View Benefit Details</span>
-</button> <br><br>
-</button> <br><br>
-<button type="button" class="b-button">
-    <span class="b-button__content b-button__content_icon b-button__content_icon-pay">View Benefit Details</span>
+    <span class="b-button__content b-button__content_icon b-button__content_icon-mail b-button_general">View Benefit Details</span>
 </button> <br><br>
 <button type="button" class="b-button">
-    <span class="b-button__content b-button__content_icon b-button__content_icon-pay">Make Payment</span>
+    <span class="b-button__content b-button__content_icon b-button__content_icon-pay b-button_general">View Benefit Details</span>
 </button> <br><br>
 <button type="button" class="b-button">
-    <span class="b-button__content b-button__content_icon b-button__content_icon-upload_w">Upload Supporting Documents</span>
+    <span class="b-button__content b-button__content_icon b-button__content_icon-pay b-button_general">Make Payment</span>
 </button> <br><br>
 <button type="button" class="b-button">
-    <span class="b-button__content b-button__content_icon b-button__content_icon-arrow">Manage Enrollments</span>
+    <span class="b-button__content b-button__content_icon b-button__content_icon-upload_w b-button_general">Upload Supporting Documents</span>
 </button> <br><br>
 <button type="button" class="b-button">
-    <span class="b-button__content b-button__content_icon b-button__content_icon-arrow">Manage Invoices</span>
+    <span class="b-button__content b-button__content_icon b-button__content_icon-arrow b-button_arrow">Manage Enrollments</span>
+</button> <br><br>
+<button type="button" class="b-button">
+    <span class="b-button__content b-button__content_icon b-button__content_icon-arrow b-button_arrow">Manage Invoices</span>
 </button> <br><br>
 <button type="button" class="b-button b-button_green b-button_apply">
     <span class="b-button__content b-button__content_icon b-button__content_icon-paper">Apply for Benefits</span>
 </button> <br><br>
 <button type="button" class="b-button b-button_gray">
-    <span class="b-button__content b-button__content_icon b-button__content_icon-upload">Upload Supporting Documents</span>
+    <span class="b-button__content b-button__content_icon b-button__content_icon-upload b-button_general">Upload Supporting Documents</span>
 </button> <br><br>
 <button type="button" class="b-button b-button_gray b-button_cancel">
     <span class="button-message">Cancel</span>
@@ -55,6 +54,47 @@
 <button type="button" class="b-button b-button_green">
     <span class="button-message">Submit</span>
 </button>
+<br><br>
+<form>
+<label>
+    <input type="radio" name="radio" />
+    <span class="lbl padding-8">Male</span>
+</label>
+<label>
+    <input type="radio" name="radio" />
+    <span class="lbl padding-8">Femel</span>
+</label><br><br>
+</form>
+<form>
+<label>
+    <input type="radio" name="radio" />
+    <span class="lbl padding-8">Yes</span>
+</label>
+<label>
+    <input type="radio" name="radio" />
+    <span class="lbl padding-8">No</span>
+</label><br><br>
+</form>
+<input type="text" placeholder="Name" class="b-input"><br><br>
+<input type="text" placeholder="Last Name" class="b-input"><br><br>
+<input type="text" placeholder="Middle Name" class="b-input"><br><br>
+<input type="text" placeholder="Suffix" class="b-input"><br><br>
+
+<input type="text" placeholder="Address Line 1" class="b-input"><br><br>
+<input type="text" placeholder="City" class="b-input"><br><br>
+<input type="text" placeholder="Address Line 2" class="b-input"><br><br>
+<select class="b-select b-select_short">
+    <option value="" disabled selected>Select A State</option>
+    <option value="MD">Maryland</option>
+    <option value="TX">Texas</option>
+</select> <input type="text" placeholder="Zip Code" class="b-input b-input_short"><br><br>
+<select class="b-select">
+    <option value="" disabled selected>Select A State</option>
+    <option value="MD">Maryland</option>
+    <option value="TX">Texas</option>
+</select><br><br>
+
+
 
 </body>
 </html>

@@ -1,0 +1,120 @@
+.b-input {
+  height: 40px;
+  width: 338px;
+  padding: 0px 15px 0 15px;
+  border: solid 1px #d4d4d4;
+  font-family: MuseoSans-300;
+  font-size: 13px;
+  color: #636363;
+    ::-moz-placeholder { /* Firefox 19+ */ color: red; } :-ms-input-placeholder { color: red; }
+  &:hover {
+    /*background-color: lighten(#fff, 5%);*/
+  }
+  &:active {
+ /*   background-color: darken(#0074ad, 5%);*/
+  }
+  &:focus {
+    outline:none;
+  }
+  &::-webkit-input-placeholder {
+    color: #636363;
+  }
+  &:-moz-placeholder {
+    color: #636363;
+  }
+  &::-moz-placeholder {
+    color: #636363;
+  }
+}
+
+.b-select {
+  height: 40px;
+  width: 338px;
+  padding: 0 15px 0 15px;
+  border: solid 1px #d4d4d4;
+  font-family: MuseoSans-300;
+  font-size: 13px;
+  color: #636363;
+  &:hover {
+    /*background-color: lighten(#fff, 5%);*/
+  }
+  &:active {
+    /*   background-color: darken(#0074ad, 5%);*/
+  }
+  &:focus {
+    outline:none;
+  }
+}
+
+.b-select_short {
+  /*width: 218px;*/
+  width: 225px;
+}
+
+.b-input_short {
+  height: 40px;
+  width: 108px;
+}
+
+input[type=radio] {
+  opacity: 0;
+  position: absolute;
+  z-index: 12;
+  width: 25px;
+  height: 25px;
+}
+
+input[type=radio]:checked, input[type=radio]:focus {
+  outline: none !important;
+}
+
+input[type=radio] + .lbl {
+  position: relative;
+  z-index: 11;
+  display: inline-block;
+  margin: 0;
+  line-height: 30px;
+  min-height: 25px;
+  min-width: 25px;
+  font-weight: normal;
+}
+
+input[type=radio] + .lbl.padding-8::before {
+  margin-right: 8px;
+}
+
+input[type=radio] + .lbl::before {
+  font-family: MuseoSans-300;
+  font-weight: normal;
+  font-size: 11px;
+  color: #000;
+  content: "\a0";
+  background-color: #FAFAFA;
+  border: 1px solid #CCC;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 0;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  height: 20px;
+  line-height: 20px;
+  min-width: 20px;
+  margin-right: -1px;
+  margin-top: -8px;
+}
+
+input[type=radio]:hover + .lbl::before, input[type=radio] + .lbl:hover::before {
+  border-color: darken(#d6d6d6, 20%);
+}
+
+input[type=radio] + .lbl::before {
+  border-radius: 32px;
+  font-family: MuseoSans-300;
+  font-size: 15px;
+}
+
+input[type=radio]:checked + .lbl::before {
+  content: "\2022";
+  font-size: 36px;
+  line-height: 14px;
+}
