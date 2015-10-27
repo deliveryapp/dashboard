@@ -1,0 +1,32 @@
+.button {
+  font-family: MuseoSans-700;
+  font-size: 13px;
+  color: #ffffff;
+  background-color: #0074ad;
+  border: solid 1px #005e8c;
+  border-radius: 2px;
+  height: 32px;
+  padding-top: 2px;
+  padding-left: 10px;
+  padding-right: 15px;
+  span {
+    padding-left: 8px;
+  }
+}
+.apply-button {
+  @extend .button;
+  background-color: #8cc248;
+  border: solid 1px #7db23a;
+  height: 44px;
+  width: 244px;
+}
+.blue-button {
+
+}
+.greenButton {
+
+}
+.gray-button {
+  @extend .button;
+
+}
