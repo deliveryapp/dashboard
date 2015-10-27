@@ -13,11 +13,15 @@
   .b-gen-container__header-pane {
   }
   .b-gen-container__header-heading {
-
+    vertical-align: middle;
+    line-height: 25px;
   }
 
   .b-gen-container__button-container {
+    text-align: right;
+
   }
+
 
   ///-------------------------------container-pane
   .b-gen-container__container-pane {
