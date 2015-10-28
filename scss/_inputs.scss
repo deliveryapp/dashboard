@@ -1,7 +1,28 @@
+.b-title {
+  font-family: MuseoSans-700;
+  font-size: 13px;
+  color: #636363;
+  padding-bottom: 10px;
+}
+
+.b-title_radio {
+  padding-bottom: 20px;
+}
+
+.b-label_radio {
+  padding-right: 50px;
+}
+
 .b-input {
+  display: inline-block;
+  vertical-align: top;
+  padding-bottom: 10px;
+}
+
+.b-input_input {
   height: 40px;
   width: 338px;
-  padding: 0px 15px 0 15px;
+  padding: 0 15px 0 15px;
   border: solid 1px #d4d4d4;
   font-family: MuseoSans-300;
   font-size: 13px;
@@ -50,14 +71,20 @@
   }
 }
 
+.b-select_select__date {
+  color: #98a7b1;
+}
+
 .b-select {
   position: relative;
+
 }
 
 .b-select_arr {
   height: 40px;
   width: 338px;
   overflow: hidden;
+  padding-bottom: 10px;
   background: url(../images/dropdown_arrow.png) no-repeat right;
 /*  background-position: 40px 338px;*/
 }
