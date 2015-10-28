@@ -103,7 +103,7 @@
   border-bottom: 1px solid #e6e8e8;
 }
 
-.b-table-container__table-container__row__dividing-line :last-child {
+.b-table-container__table-container__row__dividing-line:last-child {
   border: none;
 }
 
@@ -205,5 +205,10 @@
 .b-button_icon{
   padding: 5px 0 0 10px;
 }
-
+.b-gen-container__invoice__box {
+  margin-top: 14px;
+  background-color: #f2f2f2;
+  border: 1px solid #dcdcdc;
+  padding:  10px ;
+}
 
