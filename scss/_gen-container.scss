@@ -1,5 +1,5 @@
-.b-dashboard__content{
-  background-color: rgb(242,242,242);
+.b-dashboard__content {
+  background-color: rgb(242, 242, 242);
   padding-top: 30px;
 }
 
@@ -7,12 +7,9 @@
   background-color: #ffffff;
   border: 1px solid #dcdcdc;
   color: #000000;
-  //padding: 10px 20px 30px 20px;
-
-  //padding: 14px 18px 33px 20px;
-  padding: 15px 18px 28px 20px;
+  padding: 15px 18px 26px 20px;
   margin-bottom: 30px;
-  width: 920px;
+  width: 922px;
   font-size: 13px;
   font-family: MuseoSans-300, sans-serif;
 }
@@ -23,24 +20,28 @@
   font-size: 15px;
   font-family: MuseoSans-700, sans-serif;
 }
+
 .b-gen-container__header-heading-text {
   margin: 9px 0 0 0;
   padding: 0;
-  font-size: 15px ;
-  font-family: MuseoSans-700, sans-serif ;
+  font-size: 15px;
+  font-family: MuseoSans-700, sans-serif;
 }
+
 .b-gen-container__button-container {
   text-align: right;
 
 }
+
 .b-gen-container__container-pane {
   background-color: #f2f2f2;
   border: 1px solid #dcdcdc;
   color: #626262;
-  margin-top: 13px;
-  padding: 27px 17px 20px 20px ;
+  margin-top: 14px;
+  padding: 20px 20px 18px 20px;
 
 }
+
 .b-gen-container__container-pane_link_color {
   color: #697a83;
 }
@@ -52,6 +53,7 @@
   margin-bottom: 13px;
   color: #697a83;
 }
+
 .b-gen-container__container-pane_row-distance:before {
   content: "\2022";
   position: absolute;
@@ -61,8 +63,58 @@
   color: #697a83;
   line-height: 17px;
 }
+
 .b-gen-container__container-pane_row-distance {
 }
+
+//----------------------------- b-table-container
+.b-table-container {
+  color: #626262;
+  margin-top: 14px;
+  padding: 20px 20px 18px 20px;
+}
+
+.b-table-container__header-box {
+  background-color: #f2f2f2;
+  border: 1px solid #dcdcdc;
+  padding: 11px 8px 11px 8px;
+  text-transform: uppercase;
+}
+
+.b-table-container__table-container {
+}
+
+.b-table-container__table-container__row {
+  padding: 2px 15px 0 15px;
+  color: #636363;
+}
+
+.b-table-container__table-container__row__dividing-line {
+  padding-bottom: 14px;
+  border-bottom: 1px solid #e6e8e8;
+}
+
+.b-table-container__table-container__row__dividing-line :last-child {
+  border: none;
+}
+
+.b-gen-container__icon-container {
+  padding-top: 1.4%;
+}
+
+.b-table-container__table-container__col-heading {
+  padding-left: 21px;
+}
+
+
+
+.b-table-container__table-container__col__vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+
 
 
 
