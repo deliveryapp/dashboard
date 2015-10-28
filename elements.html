@@ -37,6 +37,9 @@
     <span class="b-button__content b-button__content_icon b-button__content_icon-upload_w b-button_general">Upload Supporting Documents</span>
 </button> <br><br>
 <button type="button" class="b-button">
+    <span class="b-button__content b-button__content_icon b-button__content_icon-view b-button_general">View Benefit Details</span>
+</button> <br><br>
+<button type="button" class="b-button">
     <span class="b-button__content b-button__content_icon b-button__content_icon-arrow b-button_arrow">Manage Enrollments</span>
 </button> <br><br>
 <button type="button" class="b-button">
@@ -55,6 +58,15 @@
     <span class="button-message">Submit</span>
 </button>
 <br><br>
+<div class=" b-button_icon">
+    <span class="b-button__content_icon b-button__content_icon-edit"></span>
+</div> <br><br>
+<div class=" b-button_icon">
+    <span class="b-button__content_icon b-button__content_icon-edit"></span>
+</div> <br><br>
+<div class=" b-button_icon">
+    <span class="b-button__content_icon b-button__content_icon-edit"></span>
+</div> <br><br>
 <form>
 <label>
     <input type="radio" name="radio" />
@@ -83,16 +95,22 @@
 <input type="text" placeholder="Address Line 1" class="b-input"><br><br>
 <input type="text" placeholder="City" class="b-input"><br><br>
 <input type="text" placeholder="Address Line 2" class="b-input"><br><br>
-<select class="b-select b-select_short">
+<div class="b-select_arr b-select_arr__short">
+<select class="b-select_select b-select_short">
     <option value="" disabled selected>Select A State</option>
     <option value="MD">Maryland</option>
     <option value="TX">Texas</option>
-</select> <input type="text" placeholder="Zip Code" class="b-input b-input_short"><br><br>
-<select class="b-select">
-    <option value="" disabled selected>Select A State</option>
+</select>
+</div>
+<input type="text" placeholder="Zip Code" class="b-input b-input_short"><br><br>
+<div class="b-select_arr">
+    <!--<span class="b-select_arr"></span>-->
+<select class="b-select_select">
+    <option value="" disabled selected>Select A Relationship</option>
     <option value="MD">Maryland</option>
     <option value="TX">Texas</option>
-</select><br><br>
+</select>
+</div><br><br>
 
 
 

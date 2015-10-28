@@ -4,7 +4,7 @@
 
   border: solid 1px #005e8c;
   border-radius: 2px;
-  font-family: MuseoSans-500 !important;
+  font-family: MuseoSans-500;
   font-size: 13px !important;
   font-weight: 100;
   color: #fff;
@@ -19,17 +19,23 @@
     outline:none;
   }
 }
+
+.b-button_icon {
+  height: 15px;
+  font-size: 15px;
+}
+
 .b-button_general{
-  padding: 2px 15px 0 10px;
+  padding: 2px 10px 0 5px;
 }
 
 .b-button_arrow {
-  padding: 2px 15px 0 5px;
+  padding: 2px 7px 0 0;
 }
 
 .b-button_green {
   height: 34px;
-  padding: 0 50px 0 50px;
+  padding: 0 60px 0 60px;
   background-color: #8cc248;
   border: solid 1px #7db23a;
   &:hover{
@@ -44,6 +50,8 @@
 }
 
 .b-button_apply {
+  font-family: MuseoSans-900;
+  //padding: 0 50px 0 50px;
   font-size: 15px;
   height: 44px;
 }
