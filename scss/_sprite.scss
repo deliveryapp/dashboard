@@ -1,0 +1,65 @@
+.b-button__content_icon:before {
+  content: '';
+  background-image: url(../images/spritesheet.png);
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  width: 25px;
+  height: 25px;
+}
+
+.b-primary-menu__content_icon:before {
+  content: '';
+  padding-left: 35px;
+  width: 25px;
+  height: 25px;
+}
+
+
+.b-button__content_icon-arrow:before {
+  background-position: -5px -10px;
+  padding-left: 25px;
+}
+
+.b-button__content_icon-edit:before {
+  background-position: -40px -9px;
+}
+
+.b-button__content_icon-mail:before {
+  background-position: -75px -10px;
+}
+
+.b-button__content_icon-paper:before {
+  background-position: -5px -44px;
+}
+
+.b-button__content_icon-pay:before {
+  background-position: -40px -45px;
+}
+
+.b-button__content_icon-plus:before {
+  background-position: -75px -45px;
+}
+
+.b-button__content_icon-sign_out:before {
+  background-position: -5px -79px;
+}
+
+.b-button__content_icon-upload:before {
+  background-position: -40px -75px;
+}
+
+.b-button__content_icon-upload_w:before {
+  background-position: -75px -81px;
+}
+
+.b-button__content_icon-user_info:before {
+  background-position: -110px -8px;
+}
+
+.b-button__content_icon-view:before {
+  background-position: -110px -45px;
+}
+
+.b-button__content_icon-upload:before {
+  background-position: -40px -81px;
+}

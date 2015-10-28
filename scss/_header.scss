@@ -1,0 +1,89 @@
+body{
+  width: 1200px;
+  margin:0 auto;
+}
+
+.b-header{
+  height: 90px;
+
+}
+.b-dashboard__header{
+  background-color: #031539;
+}
+
+.b-dashboard__nav-bar{
+  background-color: #464646;
+}
+
+.b-gen-layout-wrapper{
+  margin:0 auto;
+  width: 897px;
+}
+
+.b-logo__text{
+  display: inline-block;
+  margin-left: 20px;
+  font-family: MuseoSans-300, sans-serif;
+  font-size: 28px;
+  color: #fff;
+  margin-top: 10px;
+  vertical-align: 11px;
+}
+
+.b-header__logo{
+  padding-top: 19px;
+}
+.b-logo__logo{
+  display: inline-block;
+  vertical-align: bottom
+}
+
+.b-nav-bar{
+  height: 45px;
+}
+
+.b-primary-menu{
+  font-family: MuseoSans-700, sans-serif;
+  font-size: 13px;
+}
+
+.b-primary-menu__item{
+  display: inline-block;
+  position: relative;
+  color: #fff;
+  line-height: 45px;
+  text-decoration: none;
+  margin-right: 22px;
+  padding-left: 30px;
+  &:before{
+    content: '';
+    width: 30px;
+    height: 30px;
+  }
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  &:active {
+    color: #fff;
+    text-decoration: none;
+  }
+  &:focus {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.b-button__content_icon-user_info:before{
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+.b-button__content_icon-sign_out:before{
+  position: absolute;
+  top: 13px;
+  left: 0;
+
+}
+
+
