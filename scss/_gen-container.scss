@@ -79,6 +79,8 @@
   border: 1px solid #dcdcdc;
   padding: 11px 8px 11px 8px;
   text-transform: uppercase;
+  font-size: 13px;
+  font-family: MuseoSans-700, sans-serif;
 }
 
 .b-table-container__table-container {
@@ -106,15 +108,11 @@
   padding-left: 21px;
 }
 
-
-
 .b-table-container__table-container__col__vcenter {
   display: inline-block;
   vertical-align: middle;
   float: none;
 }
-
-
 
 .b-gen-container__main-pane_header {
   vertical-align: middle;
@@ -122,24 +120,42 @@
   font-size: 15px;
   font-family: MuseoSans-700, sans-serif;
 }
+
 .b-gen-container__container-pane__citizen-box {
   padding: 4px 0 10px 20px;
 }
+
 .b-gen-container__main-pane_button-container {
   padding-top: 26px;
   padding-left: 15px;
 }
+
 .b-button__main-pane__button-container__offset {
   margin-top: 10px;
 }
+
 .b-gen-container__main-pane_owner-description__offset {
   margin-top: 20px;
   margin-right: 10px;
 }
-.b-gen-container__main-pane_greeting-img{
+
+.b-gen-container__main-pane_greeting-img {
   float: left;
   margin-right: 22px;
 }
+
+.b-gen-container__container-pane__payment_font-style {
+  color: #626262;
+  font-size: 12px;
+  font-family: MuseoSans-700, sans-serif;
+}
+
+.b-gen-container__container-pane__payment_emphasized-text {
+  padding-left: 10px;
+  font-size: 15px;
+  color: black;
+}
+
 
 
 
