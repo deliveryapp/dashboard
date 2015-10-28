@@ -71,24 +71,31 @@
 .b-table-container {
   color: #626262;
   margin-top: 14px;
-  padding: 20px 20px 18px 20px;
+  padding: 0 14px 0 15px;
 }
 
 .b-table-container__header-box {
   background-color: #f2f2f2;
   border: 1px solid #dcdcdc;
-  padding: 11px 8px 11px 8px;
+  //padding: 11px 8px 11px 8px;
+  padding: 10px 0 20px 0;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 11px;
   font-family: MuseoSans-700, sans-serif;
 }
 
 .b-table-container__table-container {
 }
 
-.b-table-container__table-container__row {
-  padding: 2px 15px 0 15px;
+.b-table-container__row {
   color: #636363;
+  border-bottom: 1px solid #e6e8e8;
+  padding: 13px  0 13px 0;
+
+}
+.b-table-container__row:last-child {
+  border: none;
+
 }
 
 .b-table-container__table-container__row__dividing-line {
@@ -101,17 +108,11 @@
 }
 
 .b-gen-container__icon-container {
-  padding-top: 1.4%;
+ line-height: 30px;
 }
 
 .b-table-container__table-container__col-heading {
   padding-left: 21px;
-}
-
-.b-table-container__table-container__col__vcenter {
-  display: inline-block;
-  vertical-align: middle;
-  float: none;
 }
 
 .b-gen-container__main-pane_header {
@@ -122,16 +123,22 @@
 }
 
 .b-gen-container__container-pane__citizen-box {
-  padding: 4px 0 10px 20px;
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  color: #000000;
+  margin-bottom: 30px;
+  width: 922px;
+  padding: 6px 0px 10px 21px ;
+  font-size: 13px;
+  font-family: MuseoSans-300, sans-serif;
 }
 
 .b-gen-container__main-pane_button-container {
-  padding-top: 10px;
-  padding-left: 6px;
-}
+  padding: 26px 14px 14px 14px  ;
+ }
 
 .b-button__main-pane__button-container__offset {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .b-gen-container__main-pane_owner-description__offset {
@@ -140,8 +147,8 @@
 }
 
 .b-gen-container__main-pane_greeting-img {
-  float: left;
-  margin-right: 22px;
+  margin: 16px 20px 10px 0;
+  display: inline-block;
 }
 
 .b-gen-container__container-pane__payment_font-style {
@@ -156,6 +163,47 @@
   color: black;
 }
 
+.b-gen-presentation {
 
+}
+
+.b-gen-presentation__owner-description {
+  padding-top: 10px;
+  width: 370px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.b-gen-presentation__owner-description_header {
+  color: #000000;
+  font-size: 16px;
+  font-family: MuseoSans-700, sans-serif;
+}
+
+.b-gen-presentation__owner-description__text-box {
+  color: #626262;
+  font-size: 13px;
+  line-height: 18px;
+  font-family: MuseoSans-300, sans-serif;
+}
+
+.b-presentation-img {
+  margin: 16px 20px 10px 0;
+  display: inline-block;
+
+}
+.b-table__container__content {
+  line-height: 30px;
+}
+.b-table__container__content__header-heading-text {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-family: MuseoSans-700, sans-serif;
+}
+
+.b-button_icon{
+  padding: 5px 0 0 10px;
+}
 
 
