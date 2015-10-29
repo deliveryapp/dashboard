@@ -1,25 +1,33 @@
 html,body{
-  width: 960px;
+  width: 958px;
   margin:0 auto;
   background-color: #fff;
   height: 100%;
 }
 
 .l-gen-wrapper{
-  height: 100%;
+  min-height: 100%;
+  position: relative;
+  background-color: #f2f2f2;
+  border: 1px solid lightgrey;
+  border-bottom: none;
+  border-top: none;
+
 }
 .l-content-wrapper{
-  box-sizing: border-box;
-  min-height: 100%;
-  padding-bottom: 10px;
-  border-top: none;
+
+  padding-bottom: 20px;
+
 }
 
 .b-dashboard__footer{
   height: 10px;
-  width: 100%;
+  width: 958px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
   background-color: #464646;
-  margin-top: -10px;
+  margin: 0 -1px 0 -1px;
 }
 
 .b-header{
@@ -28,10 +36,12 @@ html,body{
 
 .b-dashboard__header{
   background-color: #031539;
+  margin: 0 -1px 0 -1px;
 }
 
 .b-dashboard__nav-bar{
   background-color: #464646;
+  margin: 0 -1px 0 -1px;
 }
 
 .b-gen-layout-wrapper{
