@@ -4,7 +4,7 @@
   font-family: MuseoSans-700 !important;
   font-size: 13px !important;
   color: #636363;
-  font-weight: norm
+  font-weight: normal;
 }
 
 .b-title_radio {
@@ -79,15 +79,6 @@
   }
 }
 
-.b-select_select__date {
-  color: #98a7b1;
-}
-
-.b-select {
-  position: relative;
-
-}
-
 .b-select_arr {
   height: 40px;
   width: 338px;
@@ -109,11 +100,40 @@
   background-position: 185px 50%;
 }
 
+.b-select_select__month {
+  width: 175px;
+  font-size: 15px;
+}
+
+.b-select_arr__month {
+  display: inline-block;
+  width: 175px;
+  background-position: 142px 50%;
+}
+
 .b-input_short {
   display: inline-block;
   height: 40px;
   width: 108px;
   margin-left: 10px;
+}
+
+.b-input_input__year {
+  display: inline-block;
+  height: 40px;
+  width: 71px;
+  margin-left: 7px;
+  font-size: 15px;
+  padding-left: 17px;
+}
+
+.b-input_input__day {
+  display: inline-block;
+  height: 40px;
+  width: 71px;
+  margin-right: 7px;
+  font-size: 15px;
+  padding-left: 17px;
 }
 
 .b-label_radio-text {

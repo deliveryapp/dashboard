@@ -59,7 +59,7 @@
                     <input type="text" placeholder="Name" class="b-input_input"></div>
                 </div>
                 <div class=" col-sm-6 col-md-6 col-lg-6">
-                    <h3 class="b-title">RESIDENTAL ADDRESS</h3>
+                    <h3 class="b-title">RESIDENTIAL ADDRESS</h3>
                     <div class="b-input"><input type="text" placeholder="Address Line 1" class="b-input_input"></div>
                 </div>
             </div>
@@ -97,12 +97,26 @@
             <div class="row row-padding">
                 <div class=" col-sm-6 col-md-6 col-lg-6">
                     <h3 class="b-title">DATE OF BIRTH</h3>
-                    <div class="b-select_arr">
+                    <div class="b-input"><input type="text" placeholder="Day" class="b-input_input b-input_input__day" maxlength="2"></div>
+                    <div class="b-select_arr b-select_arr__month">
                         <!--<span class="b-select_arr"></span>-->
-                        <select class="b-select_select b-select_select__date">
-                            <option value="" disabled selected>__  / __  / __</option>
+                        <select class="b-select_select b-select_select__month">
+                            <option value="" disabled selected>Month</option>
+                            <option value="">January</option>
+                            <option value="">February</option>
+                            <option value="">March</option>
+                            <option value="">April</option>
+                            <option value="">May</option>
+                            <option value="">June</option>
+                            <option value="">July</option>
+                            <option value="">August</option>
+                            <option value="">September</option>
+                            <option value="">October</option>
+                            <option value="">November</option>
+                            <option value="">December</option>
                         </select>
                     </div>
+                    <div class="b-input"><input type="text" placeholder="Year" class="b-input_input b-input_input__year" maxlength="4"></div>
                 </div>
                 <div class=" col-sm-6 col-md-6 col-lg-6">
                     <h3 class="b-title">PHONE</h3>
@@ -135,7 +149,7 @@
                         </label>
                         <label class="b-label_radio">
                             <input type="radio" name="radio" />
-                            <span class="lbl padding-8">Femel</span>
+                            <span class="lbl padding-8">Female</span>
                         </label>
                     </div>
                 </div>
