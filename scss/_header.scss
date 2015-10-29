@@ -1,23 +1,21 @@
 html,body{
-  width: 958px;
+  width: 960px;
   margin:0 auto;
   background-color: #fff;
   height: 100%;
 }
 
-.b-gen-wrapper{
+.l-gen-wrapper{
   height: 100%;
 }
-.b-content-wrapper{
+.l-content-wrapper{
   box-sizing: border-box;
   min-height: 100%;
   padding-bottom: 10px;
-  border: 1px solid lightgrey;
   border-top: none;
 }
 
 .b-dashboard__footer{
-  position: relative;
   height: 10px;
   width: 100%;
   background-color: #464646;
@@ -66,6 +64,11 @@ html,body{
 .b-primary-menu{
   font-family: MuseoSans-700, sans-serif;
   font-size: 13px;
+}
+
+.b-primary-menu__item_without-action {
+  pointer-events: none;
+  cursor: default;
 }
 
 .b-primary-menu__item{
