@@ -6,184 +6,191 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body class="b-dashboard">
+    <div class="b-gen-wrapper">
 
-<div class="b-dashboard__header">
-    <div class="b-gen-layout-wrapper">
-        <header class="b-header">
-            <div class="b-header__logo">
-                <div class="b-logo">
-                    <div class="b-logo__logo">
-                        <img src="images/logo.png" alt=""/>
-                    </div>
-                    <div class="b-logo__text">
-                        <span>My Dashboard</span>
+        <div class="b-content-wrapper">
+
+            <div class="b-dashboard__header">
+                <div class="b-gen-layout-wrapper">
+                    <header class="b-header">
+                        <div class="b-header__logo">
+                            <div class="b-logo">
+                                <div class="b-logo__logo">
+                                    <img src="images/logo.png" alt=""/>
+                                </div>
+                                <div class="b-logo__text">
+                                    <span>My Dashboard</span>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+                </div>
+            </div>
+
+            <div class="b-dashboard__nav-bar">
+                <div class="b-gen-layout-wrapper">
+                    <div class="b-nav-bar">
+                        <div class="b-nav__primary-menu">
+                            <nav class="b-primary-menu">
+                                <span class="b-primary-menu__item b-primary-menu__item_person-name b-button__content_icon-user_info b-button__content_icon">
+                                    John Doe
+                                </span>
+                                <a  href='#' class="b-primary-menu__item b-primary-menu__item_sign-out b-button__content_icon-sign_out b-button__content_icon">
+                                    Sign out
+                                </a>
+                            </nav>
+                        </div>
                     </div>
                 </div>
             </div>
-        </header>
+
+            <div class="b-dashboard__content">
+                <div class="container b-gen-container">
+                    <div class="b-gen-container__header-pane row ">
+                        <div class="b-gen-container__header-heading col-sm-6 col-md-6 col-lg-6">
+                            <h2 class="b-gen-container__header-heading-text b-gen-container__header-heading-text_size17">Add New Household Member</h2>
+                        </div>
+
+                    </div>
+                    <form action="">
+                        <div class=" b-gen-container__container-pane b-gen-container__container-pane_link_color b-gen-container__container-pane-form-padding">
+
+
+                            <div class="row">
+                                <div class=" col-sm-6 col-md-6 col-lg-6"> <div class="b-input">
+                                    <h3 class="b-title">NAME</h3>
+                                    <input type="text" placeholder="Name" class="b-input_input"></div>
+                                </div>
+                                <div class=" col-sm-6 col-md-6 col-lg-6">
+                                    <h3 class="b-title">RESIDENTIAL ADDRESS</h3>
+                                    <div class="b-input"><input type="text" placeholder="Address Line 1" class="b-input_input"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class=" col-sm-6 col-md-6 col-lg-6">
+                                    <div class="b-input"><input type="text" placeholder="Last Name" class="b-input_input"></div>
+                                </div>
+                                <div class=" col-sm-6 col-md-6 col-lg-6">
+                                    <div class="b-input"><input type="text" placeholder="City" class="b-input_input"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class=" col-sm-6 col-md-6 col-lg-6">
+                                    <div class="b-input"><input type="text" placeholder="Middle Name" class="b-input_input"></div>
+                                </div>
+                                <div class=" col-sm-6 col-md-6 col-lg-6">
+                                    <div class="b-input"><input type="text" placeholder="Address Line 2" class="b-input_input"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class=" col-sm-6 col-md-6 col-lg-6">
+                                    <div class="b-input"><input type="text" placeholder="Suffix" class="b-input_input"></div>
+                                </div>
+                                <div class=" col-sm-6 col-md-6 col-lg-6">
+                                    <div class="b-select_arr b-select_arr__short">
+                                        <select class="b-select_select b-select_short">
+                                            <option value="" disabled selected>Select A State</option>
+                                            <option value="MD">Maryland</option>
+                                            <option value="TX">Texas</option>
+                                        </select>
+                                    </div>
+                                    <div class="b-input"><input type="text" placeholder="Zip Code" class="b-input_input b-input_short"></div>
+                                </div>
+                            </div>
+                            <div class="row row-padding">
+                                <div class=" col-sm-6 col-md-6 col-lg-6">
+                                    <h3 class="b-title">DATE OF BIRTH</h3>
+                                    <div class="b-input"><input type="text" placeholder="Day" class="b-input_input b-input_input__day" maxlength="2"></div>
+                                    <div class="b-select_arr b-select_arr__month">
+                                        <!--<span class="b-select_arr"></span>-->
+                                        <select class="b-select_select b-select_select__month">
+                                            <option value="" disabled selected>Month</option>
+                                            <option value="">January</option>
+                                            <option value="">February</option>
+                                            <option value="">March</option>
+                                            <option value="">April</option>
+                                            <option value="">May</option>
+                                            <option value="">June</option>
+                                            <option value="">July</option>
+                                            <option value="">August</option>
+                                            <option value="">September</option>
+                                            <option value="">October</option>
+                                            <option value="">November</option>
+                                            <option value="">December</option>
+                                        </select>
+                                    </div>
+                                    <div class="b-input"><input type="text" placeholder="Year" class="b-input_input b-input_input__year" maxlength="4"></div>
+                                </div>
+                                <div class=" col-sm-6 col-md-6 col-lg-6">
+                                    <h3 class="b-title">PHONE</h3>
+                                    <div class="b-input"><input type="text" placeholder="Phone" class="b-input_input"></div>
+                                </div>
+                            </div>
+                            <div class="row row-input-padding">
+                                <div class=" col-sm-6 col-md-6 col-lg-6">
+                                    <h3 class="b-title">RELATIONSHIP</h3>
+                                    <div class="b-select_arr">
+                                        <select class="b-select_select">
+                                            <option value="" disabled selected>Select A Relationship</option>
+                                            <option value="MD">Maryland</option>
+                                            <option value="TX">Texas</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class=" col-sm-6 col-md-6 col-lg-6">
+                                    <h3 class="b-title">EMAIL</h3>
+                                    <div class="b-input"><input type="text" placeholder="Email" class="b-input_input"></div>
+                                </div>
+                            </div>
+                            <div class="row row-padding">
+                                <div class=" col-sm-6 col-md-6 col-lg-6">
+                                    <h3 class="b-title b-title_radio">GENDER</h3>
+                                    <div class="b-radio_input">
+                                        <label class="b-label_radio">
+                                            <input type="radio" name="radio" />
+                                            <span class="lbl padding-8">Male</span>
+                                        </label>
+                                        <label class="b-label_radio">
+                                            <input type="radio" name="radio" />
+                                            <span class="lbl padding-8">Female</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class=" col-sm-6 col-md-6 col-lg-6">
+                                    <h3 class="b-title b-title_radio">IS THE MEMBER A US CITIZEN?</h3>
+                                    <div class="b-radio_input">
+                                        <label class="b-label_radio">
+                                            <input type="radio" name="radio2" />
+                                            <span class="lbl padding-8">Yes</span>
+                                        </label>
+                                        <label class="b-label_radio">
+                                            <input type="radio" name="radio2" />
+                                            <span class="lbl padding-8">No</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="b-gen-container__button-wrapper">
+                            <button type="button" class="b-button b-button_gray b-button_cancel">
+                                <span class="button-message">Cancel</span>
+                            </button>
+                            <button type="button" class="b-button b-button_green b-button_left-margin">
+                                <span class="button-message">Submit</span>
+                            </button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="b-dashboard__footer"></div>
     </div>
-</div>
-
-<div class="b-dashboard__nav-bar">
-    <div class="b-gen-layout-wrapper">
-        <div class="b-nav-bar">
-            <div class="b-nav__primary-menu">
-                <nav class="b-primary-menu">
-                    <a href='#' class="b-primary-menu__item b-primary-menu__item_person-name b-button__content_icon-user_info b-button__content_icon">
-                        John Doe
-                    </a>
-                    <a  href='#' class="b-primary-menu__item b-primary-menu__item_sign-out b-button__content_icon-sign_out b-button__content_icon">
-                        Sign out
-                    </a>
-                </nav>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="b-dashboard__content">
-    <div class="container b-gen-container">
-        <div class="b-gen-container__header-pane row ">
-            <div class="b-gen-container__header-heading col-sm-6 col-md-6 col-lg-6">
-                <h2 class="b-gen-container__header-heading-text b-gen-container__header-heading-text_size17">Add New Household Member</h2>
-            </div>
-
-        </div>
-        <form action="">
-        <div class=" b-gen-container__container-pane b-gen-container__container-pane_link_color b-gen-container__container-pane-form-padding">
-
-
-            <div class="row">
-                <div class=" col-sm-6 col-md-6 col-lg-6"> <div class="b-input">
-                    <h3 class="b-title">NAME</h3>
-                    <input type="text" placeholder="Name" class="b-input_input"></div>
-                </div>
-                <div class=" col-sm-6 col-md-6 col-lg-6">
-                    <h3 class="b-title">RESIDENTIAL ADDRESS</h3>
-                    <div class="b-input"><input type="text" placeholder="Address Line 1" class="b-input_input"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class=" col-sm-6 col-md-6 col-lg-6">
-                    <div class="b-input"><input type="text" placeholder="Last Name" class="b-input_input"></div>
-                </div>
-                <div class=" col-sm-6 col-md-6 col-lg-6">
-                    <div class="b-input"><input type="text" placeholder="City" class="b-input_input"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class=" col-sm-6 col-md-6 col-lg-6">
-                    <div class="b-input"><input type="text" placeholder="Middle Name" class="b-input_input"></div>
-                </div>
-                <div class=" col-sm-6 col-md-6 col-lg-6">
-                    <div class="b-input"><input type="text" placeholder="Address Line 2" class="b-input_input"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class=" col-sm-6 col-md-6 col-lg-6">
-                    <div class="b-input"><input type="text" placeholder="Suffix" class="b-input_input"></div>
-                </div>
-                <div class=" col-sm-6 col-md-6 col-lg-6">
-                    <div class="b-select_arr b-select_arr__short">
-                        <select class="b-select_select b-select_short">
-                            <option value="" disabled selected>Select A State</option>
-                            <option value="MD">Maryland</option>
-                            <option value="TX">Texas</option>
-                        </select>
-                    </div>
-                    <div class="b-input"><input type="text" placeholder="Zip Code" class="b-input_input b-input_short"></div>
-                </div>
-            </div>
-            <div class="row row-padding">
-                <div class=" col-sm-6 col-md-6 col-lg-6">
-                    <h3 class="b-title">DATE OF BIRTH</h3>
-                    <div class="b-input"><input type="text" placeholder="Day" class="b-input_input b-input_input__day" maxlength="2"></div>
-                    <div class="b-select_arr b-select_arr__month">
-                        <!--<span class="b-select_arr"></span>-->
-                        <select class="b-select_select b-select_select__month">
-                            <option value="" disabled selected>Month</option>
-                            <option value="">January</option>
-                            <option value="">February</option>
-                            <option value="">March</option>
-                            <option value="">April</option>
-                            <option value="">May</option>
-                            <option value="">June</option>
-                            <option value="">July</option>
-                            <option value="">August</option>
-                            <option value="">September</option>
-                            <option value="">October</option>
-                            <option value="">November</option>
-                            <option value="">December</option>
-                        </select>
-                    </div>
-                    <div class="b-input"><input type="text" placeholder="Year" class="b-input_input b-input_input__year" maxlength="4"></div>
-                </div>
-                <div class=" col-sm-6 col-md-6 col-lg-6">
-                    <h3 class="b-title">PHONE</h3>
-                    <div class="b-input"><input type="text" placeholder="Phone" class="b-input_input"></div>
-                </div>
-            </div>
-            <div class="row row-input-padding">
-                <div class=" col-sm-6 col-md-6 col-lg-6">
-                    <h3 class="b-title">RELATIONSHIP</h3>
-                    <div class="b-select_arr">
-                        <select class="b-select_select">
-                            <option value="" disabled selected>Select A Relationship</option>
-                            <option value="MD">Maryland</option>
-                            <option value="TX">Texas</option>
-                        </select>
-                    </div>
-                </div>
-                <div class=" col-sm-6 col-md-6 col-lg-6">
-                    <h3 class="b-title">EMAIL</h3>
-                    <div class="b-input"><input type="text" placeholder="Email" class="b-input_input"></div>
-                </div>
-            </div>
-            <div class="row row-padding">
-                <div class=" col-sm-6 col-md-6 col-lg-6">
-                    <h3 class="b-title b-title_radio">GENDER</h3>
-                    <div class="b-radio_input">
-                        <label class="b-label_radio">
-                            <input type="radio" name="radio" />
-                            <span class="lbl padding-8">Male</span>
-                        </label>
-                        <label class="b-label_radio">
-                            <input type="radio" name="radio" />
-                            <span class="lbl padding-8">Female</span>
-                        </label>
-                    </div>
-                </div>
-                <div class=" col-sm-6 col-md-6 col-lg-6">
-                    <h3 class="b-title b-title_radio">IS THE MEMBER A US CITIZEN?</h3>
-                    <div class="b-radio_input">
-                        <label class="b-label_radio">
-                            <input type="radio" name="radio2" />
-                            <span class="lbl padding-8">Yes</span>
-                        </label>
-                        <label class="b-label_radio">
-                            <input type="radio" name="radio2" />
-                            <span class="lbl padding-8">No</span>
-                        </label>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-
-
-        <div class="b-gen-container__button-wrapper">
-            <button type="button" class="b-button b-button_gray b-button_cancel">
-                <span class="button-message">Cancel</span>
-            </button>
-            <button type="button" class="b-button b-button_green b-button_left-margin">
-                <span class="button-message">Submit</span>
-            </button>
-        </div>
-        </form>
-
-    </div>
-</div>
 
 </body>
 </html>

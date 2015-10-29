@@ -1,15 +1,33 @@
-body{
+html,body{
   width: 958px;
   margin:0 auto;
   background-color: #fff;
-  border: 1px solid #dcdcdc;
+  height: 100%;
+}
+
+.b-gen-wrapper{
+  height: 100%;
+}
+.b-content-wrapper{
+  box-sizing: border-box;
+  min-height: 100%;
+  padding-bottom: 10px;
+  border: 1px solid lightgrey;
   border-top: none;
+}
+
+.b-dashboard__footer{
+  position: relative;
+  height: 10px;
+  width: 100%;
+  background-color: #464646;
+  margin-top: -10px;
 }
 
 .b-header{
   height: 90px;
-
 }
+
 .b-dashboard__header{
   background-color: #031539;
 }
@@ -88,5 +106,7 @@ body{
   left: 0;
 
 }
+
+
 
 
