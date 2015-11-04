@@ -1,10 +1,9 @@
-.b-individuals {
+.b-list {
   width: 900px;
   height: 211px;
-
 }
 
-.b-individuals_item {
+.b-list__item {
   float: left;
   width: 270px;
   margin-left: 44px;
@@ -13,11 +12,11 @@
   }
 }
 
-.b-item {
+.b-list-item {
 
 }
 
-.b-item_title {
+.b-list-item__title {
   font-family: MuseoSans700;
   /*font-weight: 500;*/
   color: #333;
@@ -26,7 +25,7 @@
   line-height: 1.2
 }
 
-.b-item_image {
+.b-list-item__image {
   overflow: hidden;
   width: 270px;
   height: 180px;
@@ -52,18 +51,18 @@
     filter: alpha(Opacity=50);
     opacity: .5
   }
-  &:hover .b-item-image_fa {
+  &:hover .b-list-item-image__fa {
     filter: alpha(enabled=false);
     opacity: 1;
     margin-top: -25px
   }
 }
 
-.b-item_image__width {
+.b-list-item__image_width {
   width: 270px;
 }
 
-.b-item-image_fa {
+.b-list-item-image__fa {
   width: 50px;
   height: 50px;
   border-radius: 50px;
@@ -88,7 +87,7 @@
   -webkit-font-smoothing: antialiased;
 }
 
-.b-item-image_fa_play{
+.b-list-item-image__fa_play{
   &:before {
     content: "\f04b"
   }
