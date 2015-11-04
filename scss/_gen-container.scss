@@ -2,7 +2,7 @@
   background-color: #f2f2f2;
 }
 
-.b-dashboard__content {
+.b-b-table__container__content__header-heading-textboard__content {
   padding-top: 30px;
   height: 100%;
 }
@@ -171,8 +171,12 @@
 
 }
 
+.b-gen-header_title {
+  font-size: 11px;
+}
+
 .b-gen-presentation__owner-description {
-  padding-top: 10px;
+  padding-top: 28px;
   width: 370px;
   display: inline-block;
   vertical-align: top;
@@ -197,14 +201,24 @@
 
 }
 .b-table__container__content {
-  line-height: 30px;
+  line-height: 43px;
 }
 .b-table__container__content__header-heading-text {
   margin: 0;
   padding: 0;
   font-size: 13px;
   font-family: MuseoSans-700, sans-serif;
+  line-height: 30px;
   color: #000;
+}
+
+.b-table__container__content__header-heading-text-invoices {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-family: MuseoSans-700, sans-serif;
+  color: #000;
+  line-height: 30px;
 }
 
 .b-button_icon{
@@ -217,3 +231,6 @@
   padding:  10px ;
 }
 
+.b-gen-container_first {
+  margin-top: 30px;
+}
