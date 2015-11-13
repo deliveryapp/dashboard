@@ -20,6 +20,10 @@
   }
 }
 
+.b-button_margin {
+  margin-right: 5px;
+}
+
 .b-button_icon {
   height: 15px;
   font-size: 15px;
@@ -35,6 +39,20 @@
 
 .b-button_arrow {
   padding: 2px 7px 0 0;
+}
+
+.b-button_general_green {
+  background-color: #8cc248;
+  border: solid 1px #7db23a;
+  &:hover{
+    background-color: lighten(#8cc248, 5%);
+  }
+  &:active {
+    background-color: darken(#7db23a, 5%);
+  }
+  &:focus {
+    outline:none;
+  }
 }
 
 .b-button_green {
@@ -88,7 +106,7 @@
 
 .b-button_citizen{
   height: 44px;
-  padding: 0 43px 0 43px;
+  padding: 0 36px 0 36px;
   background-color: #8cc248;
   border: solid 1px #7db23a;
   &:hover{
